@@ -5,7 +5,10 @@
     <classes>
       <class name="ShoppingPackage.flipKart">
         <methods>
+          <include name="LaunchBrowser"/>
           <include name="searchItem"/>
+          <include name="main"/>
+          <include name="logout"/>
         </methods>
       </class> <!-- ShoppingPackage.flipKart -->
     </classes>

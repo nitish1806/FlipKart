@@ -74,7 +74,7 @@ public class flipKart {
 	//Read the data from excel sheet
 	@Test
 	public ArrayList<String> readExcelData(int colNo) throws IOException {
-		FileInputStream fis= new FileInputStream("F:\\Login.xlsx");
+		FileInputStream fis= new FileInputStream("Login.xlsx");
 		
 		
 		XSSFWorkbook wb=new XSSFWorkbook(fis);
