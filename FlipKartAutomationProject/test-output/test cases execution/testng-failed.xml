@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [test cases execution]">
+  <test name="Saba Automation(failed)">
+    <classes>
+      <class name="SabaPackage.Userprofile">
+        <methods>
+          <include name="close"/>
+          <include name="peopleadmin"/>
+        </methods>
+      </class> <!-- SabaPackage.Userprofile -->
+      <class name="SabaPackage.LearningClass">
+        <methods>
+          <include name="SabaLogout"/>
+          <include name="newCourse"/>
+        </methods>
+      </class> <!-- SabaPackage.LearningClass -->
+    </classes>
+  </test> <!-- Saba Automation(failed) -->
+</suite> <!-- Failed suite [test cases execution] -->
